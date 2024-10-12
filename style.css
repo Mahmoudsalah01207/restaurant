@@ -1,0 +1,351 @@
+#home{
+        background-image:url(img/shutterstock_277750193.jpg) ;
+        height: 100vh;
+    background-size: cover;
+    background-color: transparent;
+    overflow: hidden;
+    }
+    #home h1{
+        font-family: 'Alegreya', serif;
+        font-size: 76px;
+        color: white;
+    }
+    #home p{
+        font-family: 'Dancing Script', cursive;
+font-size: 40px;
+color: white;
+    }
+    #home a{
+        color: white;
+    }
+
+    .anim{
+    
+        width: 30px;
+        border: white solid;
+        height: 50px;
+        border-radius: 400px;
+        position: relative;
+        animation-name: circl;
+        animation-duration: 3s;
+    }
+    .point{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: white;
+        animation: verticalMotion 1s infinite linear;
+      }
+    
+@keyframes verticalMotion {
+    0% {
+        top: 0;
+      }
+      100% {
+        top: calc(70% - 10px );
+        opacity: 0.1;
+
+      }
+    
+    
+}
+.black{
+    color: black;
+}
+
+.btn1{
+    background-color: antiquewhite !important;
+}
+.btn1:hover{
+background-color: white !important;
+}
+.nav-transparent {
+  transition: background-color 0.3s ease;
+}
+
+.nav-transparent.scrolled {
+  background-color: darkgrey; 
+}
+.who-icon-list div {
+    padding-top: 20px;
+}
+.chef-info h2 ,#Reviewers h2 ,.adam h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+
+}
+.chef-info h3 ,#Reviewers h3 ,.adam h3{
+    font-family: 'Dancing Script', cursive;
+font-size: 28px;
+color: rgb(190, 152, 101);
+}
+.chef-info p ,span, #Reviewers span,p ,.adam p{
+    font-family: 'Alegreya', serif;
+font-size: 18px;
+color:gray;
+}
+.adam h4{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+.who-icon-list i {
+    padding-top: 10px;
+    padding-bottom: 20px;
+ font-size: 25px;
+ width: 50px;
+ height: 50px;
+ border: solid rgb(190, 152, 101);
+ background-color: rgb(190, 152, 101);
+ color: white;
+ border-radius: 50%;
+ vertical-align: middle;
+ text-align: center;
+}
+#Reviewers div {
+    padding-top: 20px;
+
+}
+#Reviewers i {
+    padding-right: 6px;
+    color: rgb(190, 152, 101);
+}
+.overlay
+{
+    height: 400px;
+    background-color: #09c;
+    background-image: url(img/bgs.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+
+.slideshow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(img/shutterstock_277750193.jpg);
+    height: 70vh;
+  position: relative;
+  margin: auto;
+}
+.slideshow h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  color: white;
+
+}
+.slideshow p {
+  font-family: 'Alegreya', serif;
+  font-size: 27px;
+  color: white;
+}
+#s p {
+  font-family: 'Alegreya', serif;
+  font-size: 19px;
+  color: white;
+}
+#s1 p{
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.884);
+}
+
+/* .prev, .next {
+    display: flex;
+    justify-content: space-around;
+        cursor: pointer;
+        position: absolute;
+        top: 90%;
+          text-align: center;
+        width: 95%;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    
+      }
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} a span {
+    border: solid white;
+    padding: 1px 5px;
+    border-radius: 50%;
+}
+
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity:1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+
+#care i  {
+    padding-top: 40px;
+    padding-bottom:20px ;
+    font-size: 50px;
+    color: white;
+}
+
+#care p{
+    color: white;
+}
+.google-map {
+  /* padding-bottom: 50%; */
+  position: relative;
+}
+
+.google-map iframe {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.map-icon i{
+  padding-top:5px ;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(190, 152, 101);
+  border: solid burlywood;
+  border-radius: 50%;
+}
+.map-icon div {
+  padding-top: 15px;
+}
+.ada{
+  padding-top: 10px;
+  width: 20%;
+  margin: auto;
+}
+.ada button {
+  background-color: transparent;
+  border-radius: 50%;
+  border: solid white;
+  width: 35px;
+  height: 35px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+width: 100%;
+color: white;
+}
+.link a,.link p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #cccccc44;
+  margin-top: 8px;
+}
+.link a {
+  color: rgba(255, 255, 255, 0.425);
+  text-decoration: none;
+   padding-bottom:15px ;
+} 
+.footer h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.footer{
+  background-color: #413d38;
+}
+.icon a{
+  color: rgba(255, 255, 255, 0.425);
+  text-decoration: none;
+   padding-bottom:15px ;
+
+} 
+.icon i {
+  color: rgba(255, 255, 255, 0.425);
+}
+.icon a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #cccccc44;
+  margin-top: 8px;
+}
+.icon  span a {
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+
+}
+.footer-icon {
+  width: 50%;   
+}
+.footer-icon  i{
+  font-size: 40px;
+  padding: 10px;
+  border: solid 1px #363330;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.411);
+  background-color: #302d2a;
+
+}
+.tumblr i{
+padding: 10px 17px;
+}
+.footer-icon i:hover  {
+  background-color: blue;
+  color: white;
+}
